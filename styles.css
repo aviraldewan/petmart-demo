@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+   float: right;
+}
+
+.navbar-custom {
+    border: 5px solid black;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb055 5%, #ffcd00 92%);
+    height: 120px;
+    padding: 20px;
+}
+
+.links img {
+    margin-left: 120px;
+}
+
+.navbar-custom .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97%;
+    border-radius: 7px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    margin-left: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+img[src="https://cdn.discordapp.com/attachments/985190125988352030/985925105337126952/Screenshot_2022-06-13_203846-removebg-preview.png"]
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    margin-left: 250px;
+}
+
+.links ul li:first-child {
+    margin-left: auto;
+}
+
+.links button{
+    color: white;
+    background-color: red;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 120px;
+    height: 40px;
+    margin-top: 4px;
+}
+
+.links button:hover {
+    color: red;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.links img[src="account.png"]
+{
+    width: 5%;
+    height: 5%;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.links ul li a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+}
+
+.links ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.links ul li a:hover {
+    color: white;
+}
+
+.links ul li a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.image-container {
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.image-container .heading {
+    position: absolute;
+    bottom: 20%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    font-size: 5.5em;
+    word-spacing: 0.5em;
+    font-weight: bold;
+}
+
+.image-container button {
+    position: absolute;
+    bottom: 180px;
+    left: 95px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    width: 200px;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+
+.image-container button:hover {
+    transform: scaleY(1.1);
+}
+
+#header-image {
+    display: block;
+    width: 92%;
+    height: 12%;
+    border-radius: 35px;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 0px 10px 1px #aaaaaa;
+}
+
+.footer-container hr {
+    border-color: white;
+    margin-top: 40px;
+    margin-left: -25px;
+}
+
+.footer-container {
+    background-color: #333;
+    padding: 60px;
+    padding-left: 100px;
+    color: #efefef;
+}
+
+.footer-container .left-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container .left-info ul{
+    list-style-type: none;
+    padding-right: 15%;
+}
+
+.footer-container h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.footer-container .left-info ul li{
+    color: white;
+    font-size: 22px;
+}
+
+.footer-container .left-info{
+    color: white;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.footer-container h2 a{
+    color: white;
+    text-decoration:none;
+}
+
+.footer-container .footer-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-container .contact {
+  margin-left: 30%;
+}
+
+ .rights {
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
